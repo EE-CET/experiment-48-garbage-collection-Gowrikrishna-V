@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Check Garbage Collection Output",
+      "setup": "javac src/GarbageCollection.java",
+      "run": "java -cp src GarbageCollection",
+      "input": "",
+      "output": "Garbage Collected",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
